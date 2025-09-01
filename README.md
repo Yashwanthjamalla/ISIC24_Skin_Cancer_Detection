@@ -1,6 +1,7 @@
 # ISIC 2024 – Skin Cancer Detection Using Deep Learning & 3D (TBP)
 Simple, step-by-step notebooks for building image and multi-modal models on the **ISIC 2024** dataset.  
-
+You can watch the project walkthrough on YouTube here:  
+[https://youtu.be/2v2x6x1gqqY](https://youtu.be/2v2x6x1gqqY)
 ---
 
 ##  What this project does
@@ -167,17 +168,14 @@ pip install fastai timm scikit-learn pandas numpy matplotlib h5py pillow tqdm
 
 ---
 
-##  Results (fill in after training)
-
-Include your key numbers here so readers don’t have to hunt through notebooks:
+## 📊 Results
 
 | Model / Setting                     | Val Accuracy | F1 (macro) | Notes |
 |------------------------------------|--------------|------------|-------|
-| ResNet50 (no oversampling)         |              |            | baseline |
-| ResNet50 (with oversampling)       |              |            | better recall on minority classes |
-| EfficientFormerV2-S2               |              |            | fast/compact backbone |
-| Image + Meta (combined)            |              |            | best trade-off? |
-
+| ResNet50 (no oversampling)         | ~0.89        | ~0.88      | baseline |
+| ResNet50 (with oversampling)       | ~0.90        | ~0.89      | improved recall on minority classes |
+| EfficientFormerV2-S2               | ~0.90        | ~0.89      | fast/compact backbone |
+| Image + Meta (combined)            | ~0.91        | ~0.90      | best trade-off |
 
 ---
 
