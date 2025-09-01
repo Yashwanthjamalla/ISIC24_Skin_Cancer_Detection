@@ -168,7 +168,7 @@ pip install fastai timm scikit-learn pandas numpy matplotlib h5py pillow tqdm
 
 ---
 
-## 📊 Results
+## Results
 
 | Model / Setting                     | Val Accuracy | F1 (macro) | Notes |
 |------------------------------------|--------------|------------|-------|
